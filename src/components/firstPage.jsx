@@ -3,7 +3,7 @@ import React from "react";
 export default function FirstPage() {
   return (
     <div className="d-flex padding shadow-lg  ">
-      <img src="src/components/photo_Nero AI_Face-min.jpeg" alt="my photo" />
+      <img src="/photo_Nero AI_Face-min.jpeg" alt="my photo" />
 
       <div className="side">
         <p>I am </p>
