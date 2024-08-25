@@ -79,3 +79,8 @@ p {
 .list > div {
   margin: auto 2rem;
 }
+
+.links > a {
+  display: flex;
+  align-items: center;
+}
