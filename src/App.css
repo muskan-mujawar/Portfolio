@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  background-color: #1a120b;
+  /* color: #e5e5cb; */
+  color: white;
+}
+
+img {
+  height: auto;
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.col {
+  display: flex;
+  /* justify-content: center;
+  height: 100%; */
+}
+
+/*
+  height: 100vh;
+}*/
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.side {
+  padding-left: 3%;
+}
+
+.list {
+  display: flex;
+  gap: 3;
+}
+
+.flexing {
+  display: flex;
+}
+
+.padding {
+  padding-top: 6rem;
+
+  /* line-height: 8px; */
+}
+
+li::marker {
+  content: "";
+}
+
+h1 {
+  color: #d5cea3;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2,
+h5 {
+  color: #d5cea3;
+}
+
+p {
+  color: white;
+}
+
+.text-color {
+  color: #e5e5cb;
+}
+
+.card {
+  background-color: #1a120b;
+}
+
+.list > div {
+  margin: auto 2rem;
+}
