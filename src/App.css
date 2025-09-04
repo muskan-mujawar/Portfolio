@@ -1,81 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
 
 body {
-  background-color: #1a120b;
-  /* color: #e5e5cb; */
   color: white;
+  background-color: black;
 }
 
-img {
-  height: auto;
-  width: 10rem;
-  border-radius: 2rem;
+.bgColor {
+  background-color: #f3e4ff;
 }
 
-.col {
-  display: flex;
-  /* justify-content: center;
-  height: 100%; */
+.number {
+  border: solid;
 }
 
-/*
-  height: 100vh;
-}*/
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+.container {
+  padding: 0;
 }
 
-.side {
-  padding-left: 3%;
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem;
+  }
 }
 
-.list {
-  display: flex;
-  gap: 3;
+.image {
+  height: 12em;
+  width: 15em;
 }
 
-.flexing {
-  display: flex;
+@media (min-width: 768px) {
+  .image {
+    height: 20em;
+    width: 33em;
+  }
 }
 
-.padding {
-  padding-top: 6rem;
-
-  /* line-height: 8px; */
+@media (min-width: 768px) {
+  .first {
+    display: flex;
+  }
 }
 
-li::marker {
-  content: "";
-}
-
-h1 {
-  color: #d5cea3;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-h2,
-h5 {
-  color: #d5cea3;
-}
-
-p {
-  color: white;
-}
-
-.text-color {
-  color: #e5e5cb;
-}
-
-.card {
-  background-color: #1a120b;
-}
-
-.list > div {
-  margin: auto 2rem;
+.dropdown-toggle::after {
+  display: none;
 }

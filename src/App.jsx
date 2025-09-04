@@ -1,21 +1,25 @@
 import { useState } from "react";
 import "./App.css";
+
 import FirstPage from "./components/firstPage";
 import Education from "./components/eduction";
 import Experiences from "./components/experience";
 import Project from "./components/project";
-import Skills from "./components/skills";
-import Interest from "./components/Interest";
+
 import data from "./components/data";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import Skills from "./components/skills";
 
 function App() {
   return (
     <div>
+      <Navbar />
+
       <div className="container">
         <FirstPage />
-        <h1 className="padding">Education</h1>
-        <div className="row row-cols-3">
+        <h1>Education</h1>
+        <div>
           {data.map((education) => {
             return (
               <Education
@@ -24,6 +28,7 @@ function App() {
                 marks={education.marks}
                 course={education.course}
                 year={education.year}
+                src={education.src}
               />
             );
           })}
@@ -31,7 +36,6 @@ function App() {
         <Experiences />
         <Project />
         <Skills />
-        <Interest />
         <Footer />
       </div>
     </div>

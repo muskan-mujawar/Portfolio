@@ -4,9 +4,10 @@ const data=
   {
     uName: "Savitribai Phule Pune University",
     branch: "Electronics & Telecommuncation",
-    marks: "8.2",
+    marks: "8.34",
     course: "Bachelor of Engineering",
-    year: "August 2021 - Present"
+    year: "May 2025",
+    src:"/undraw_education_3vwh.svg" 
   },
 
   {
@@ -14,7 +15,8 @@ const data=
     branch: "",
     marks: "87.0%",
     course: "HSC",
-    year: "March 2021"
+    year: "March 2021",
+    src:"/undraw_books_wxzz.svg" 
   },
 
   {
@@ -22,7 +24,8 @@ const data=
     branch: "",
     marks: "83.6%",
     course: "SSC",
-    year: "March 2019"
+    year: "March 2019",
+    src:"/undraw_educator_6dgp.svg"
   }
 ]
 export default data;
