@@ -1,15 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --secondary: s;
+  --secondary: #e90074;
 }
 
 body {
   color: white;
   background-color: rgb(0, 0, 0);
 }
-
-.bgColor {
+s .bgColor {
   background-color: #f3e4ff;
 }
 
@@ -33,7 +32,7 @@ h1 {
 
 .image {
   height: 12em;
-  width: 10em;
+  width: 20em;
 }
 
 @media (min-width: 768px) {
