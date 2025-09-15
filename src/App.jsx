@@ -18,7 +18,7 @@ function App() {
 
       <div className="container">
         <FirstPage />
-        <h1>Education</h1>
+        <h1 className="inter-font ms-4 pb-3">Education</h1>
         <div>
           {data.map((education) => {
             return (

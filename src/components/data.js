@@ -3,7 +3,7 @@ const data=
 [
   {
     uName: "Savitribai Phule Pune University",
-    branch: "Electronics & Telecommuncation",
+    branch: "(E&TC)",
     marks: "8.34",
     course: "Bachelor of Engineering",
     year: "May 2025",

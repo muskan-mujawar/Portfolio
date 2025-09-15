@@ -11,9 +11,14 @@ function Dropdown() {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <FaAlignJustify />
+          <FaAlignJustify className="icon-color" />
         </button>
         <ul class="dropdown-menu  ">
+          <li>
+            <a class="dropdown-item" href="/">
+              Home
+            </a>
+          </li>
           <li>
             <a class="dropdown-item" href="#Education">
               Education

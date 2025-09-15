@@ -11,6 +11,7 @@ function Navbar() {
         {" "}
         <nav className="fixed top-0  h-[3em] w-full">
           <div className="flex justify-end space-x-6 pe-6">
+            <a href="/">Home</a>
             <a href="#Education">Education</a>
             <a href="#Experience">Experience</a>
             <a href="#Project">Project</a>
